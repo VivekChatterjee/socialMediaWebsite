@@ -1,0 +1,122 @@
+.topbarContainer {
+  height: 90px;
+  width: 100%;
+  /* background-color: #f5f6f8; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  display: flex;
+  align-items: center;
+  flex: 3;
+  margin-left: 1rem;
+}
+.topbarImg {
+  margin-right: 10px;
+}
+
+.topbarLogo {
+  font-size: 1.7rem;
+  font-family: "Fredoka One";
+  color: #f38b86;
+}
+
+.topbarCenter {
+  flex: 10;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchBar {
+  width: 50%;
+  height: 50px;
+  background-color: #eeeeee;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin: 10px;
+}
+
+.searchInput {
+  border: none;
+  width: 70%;
+  background-color: #eeeeee;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarLinksIcon {
+  font-size: 28px !important;
+  margin-left: 10px;
+  background-color: #f5f6f8;
+  color: #adb5bd;
+  padding: 0.6rem;
+  border-radius: 50%;
+}
+.topbarLinksIcon:hover {
+  background-color: #f38b86;
+  color: #fff;
+}
+
+.topbarIcons {
+  margin-top: 5px;
+  display: flex;
+}
+.topbarIcons > * {
+  margin-left: 5px;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  color: #f38b86;
+}
+.leftbarBottomListItemText {
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: #9ab3da;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.avatarImg {
+  background-color: #ffd800;
+}
