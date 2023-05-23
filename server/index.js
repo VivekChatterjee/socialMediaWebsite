@@ -17,6 +17,7 @@ const path = require("path")
 
 dotenv.config()
 
+//connect
 PORT = 8800
 URL = process.env.CONNECTION_URL
 
