@@ -19,7 +19,7 @@ dotenv.config()
 
 //connect
 PORT = 8800
-URL = process.env.CONNECTION_URL
+URL = "mongodb+srv://social-gram:social-gram@socialgram.lyxubfj.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose
     .connect(URL, {
