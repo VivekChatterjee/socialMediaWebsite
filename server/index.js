@@ -18,7 +18,7 @@ const path = require("path")
 dotenv.config()
 
 //connect
-PORT = process.env.PORT || 8800
+PORT = 8800
 URL = "mongodb+srv://social-gram:social-gram@socialgram.lyxubfj.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose
@@ -32,7 +32,7 @@ mongoose
 
 //cross origin 
 app.use((req, res, next) => {
-    const allowedOrigins = [];
+    const allowedOrigins = ['http://localhost:3000'];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
         res.setHeader('Access-Control-Allow-Origin', origin);
